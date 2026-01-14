@@ -24,17 +24,17 @@ Result Formatting: Rounding values and aliasing columns for stakeholder-ready re
 1. Revenue by Store
 I identified the top 5 stores contributing the most to total company revenue. This allows management to focus optimization efforts on high-volume locations.
 
-![Top 5 Stores](top_stores_screenshot.png)
+![Top 5 Stores](top_stores.png)
 
 2. The "Holiday Lift"
 Analysis revealed a clear increase in average weekly sales during holiday weeks. This supports the business case for increased marketing spend during these periods.
 
-![Holiday vs Normal](holiday_impact_screenshot.png)
+![Holiday vs Normal](holiday_impact.png)
 
 3. Economic Sensitivity
 By filtering for weeks with unemployment rates above 8%, I tracked how consumer spending in Store 1 responded to local economic downturns.
 
-![Unemployment Analysis](unemployment_screenshot.png)
+![Unemployment Analysis](unemployment_analysis.png)
 
 📂 Project Structure
 Walmart_Sales.csv: The raw dataset containing historical sales records.
