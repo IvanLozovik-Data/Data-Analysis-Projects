@@ -23,12 +23,12 @@ In this project, I performed a comprehensive analysis of the Netflix Titles data
 ### 1. Content Eras Distribution
 I categorized the entire library into three eras. This query demonstrates the platform's aggressive focus on the "Modern" era (2015-2021).
 
-`![Content Eras Analysis](netflix_eras_screenshot.png)`
+![Content Eras Analysis](netflix_eras_screenshot.png)
 
 ### 2. Top Content Producers (by Country)
 By aggregating titles by country, I identified the dominant markets. This shows the geographic diversity of the Netflix library.
 
-`![Global Production](netflix_countries_screenshot.png)`
+![Global Production](netflix_countries_screenshot.png)
 
 ---
 
