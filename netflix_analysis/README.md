@@ -1,24 +1,38 @@
-# Data-Analysis-Projects
-A collection of SQL queries and data analysis projects solving business problems.
-**Netflix Content Strategy Analysis**
+# Netflix Content Strategy Analysis
 
-**Tools Used: PostgreSQL, pgAdmin 4**
+## 📌 Project Overview
+In this project, I performed a comprehensive analysis of the Netflix Titles dataset (8,800+ records). The goal was to decode Netflix's content distribution strategy, identify growth eras, and analyze regional production trends to understand how the platform competes globally.
 
-**📌 Project Overview**
-In this project, I performed a comprehensive analysis of the Netflix Titles dataset, which contains over 8,800 records of movies and TV shows available on the platform as of 2021. The goal was to understand Netflix's content distribution, identify key growth eras, and analyze regional production trends.
+## 📊 Key Business Insights
+1. **The "Modern" Push:** 70%+ of the library was released after 2015, proving a heavy pivot toward original, fresh content.
+2. **Global Powerhouses:** Identified the US, India, and the UK as the primary content engines, with emerging growth in South Korean titles.
+3. **Movies vs. TV:** Quantified the split between formats to understand platform stickiness and viewer retention trends.
 
-**🛠️ Technical Skills Demonstrated**
-Data Engineering: Defined a relational schema and imported a large-scale CSV dataset into PostgreSQL.
+---
 
-Common Table Expressions (CTEs): Used CTEs to organize complex logic for cleaner, more readable queries.
+## 🛠️ Technical Skills Demonstrated
+* **Relational Schema Design:** Creating structured tables to handle large-scale CSV imports.
+* **CTEs (Common Table Expressions):** Using `WITH` clauses to break down complex logic into readable steps.
+* **Data Binning:** Using `CASE WHEN` to transform release years into "Content Eras" (Classic vs. Modern).
+* **String Manipulation:** Cleaning and filtering text data for regional analysis.
 
-Conditional Logic: Applied CASE WHEN statements to categorize titles into "Modern," "Recent," and "Classic" eras based on release_year.
+---
 
-Data Aggregation: Utilized GROUP BY, COUNT, and ORDER BY to generate business-ready reports.
+## 🔍 Visual Evidence & SQL Queries
 
-**📊 Key Insights**
-Modern Content Dominance: The vast majority of Netflix's library consists of "Modern" content (released 2015-2021), highlighting the platform's focus on fresh, original productions.
+### 1. Content Eras Distribution
+I categorized the entire library into three eras. This query demonstrates the platform's aggressive focus on the "Modern" era (2015-2021).
 
-Global Production: The United States, India, and the United Kingdom emerged as the top contributors to the global library.
+`![Content Eras Analysis](netflix_eras_screenshot.png)`
 
-Format Split: While Movies make up the larger portion of the library (approx. 70%), TV Show additions have seen significant growth in recent years.
+### 2. Top Content Producers (by Country)
+By aggregating titles by country, I identified the dominant markets. This shows the geographic diversity of the Netflix library.
+
+`![Global Production](netflix_countries_screenshot.png)`
+
+---
+
+## 📂 Project Structure
+* `netflix_titles.csv`: The raw source data.
+* `netflix_queries.sql`: The full SQL script containing the analysis.
+* `README.md`: Project summary and findings.
