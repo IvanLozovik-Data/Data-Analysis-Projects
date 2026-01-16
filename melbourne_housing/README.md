@@ -1,4 +1,5 @@
-Melbourne Housing: Street-Level Value & Market Analysis
+## Melbourne Housing: Street-Level Value & Market Analysis
+
 📊 Project Overview
 This project transforms a raw dataset of over 13,000 Melbourne property sales into a structured market analysis tool. By cleaning messy address strings and applying advanced SQL window functions, this analysis identifies the highest-value properties on every street and categorizes neighborhoods into distinct investment tiers.
 
